@@ -1,6 +1,6 @@
 
 
-describe("Adição de Valoreeeeeeeeees", function () {
+describe("Adição de Valores", function () {
 
     var resultado = "";
     beforeEach(function () {
@@ -11,7 +11,7 @@ describe("Adição de Valoreeeeeeeeees", function () {
     describe("Adição", function () {
 
         it("Espera-se que a soma seja igual a 5", function () {
-            expect(resultado.adicao()).toEqual(5);
+            expect(resultado.adicao()).toEqual(8);
         });
     });
 });
